@@ -4,7 +4,7 @@ class InputState {
   constructor() {
     makeAutoObservable(this);
   }
-  value = "ddsa";
+  value = "";
 
   setValue = (e: string) => {
     this.value = e;
